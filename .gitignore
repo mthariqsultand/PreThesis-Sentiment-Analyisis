@@ -180,3 +180,19 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 /results
+
+# =========================
+# ML / HuggingFace Models
+# =========================
+
+indobertweet-finetuned/
+*/indobertweet-finetuned/
+
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# tokenizer + model cache besar (opsional kalau tidak mau ke-track sama sekali)
+tokenizer.json
+special_tokens_map.json
